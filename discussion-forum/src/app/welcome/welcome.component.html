@@ -1,3 +1,6 @@
 <div class="container">
-  <h1>All Topics</h1>
+  <h1>All Posts</h1>
+  <div *ngFor="let post of posts | async">
+      <h3><em>{{post.title}}</em></h3>
+  </div>
 </div>
