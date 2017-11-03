@@ -1,28 +1,46 @@
 # _Personal Reflection Project: Discussion Forum_
 
-#### _An reflection on my development as a coder so far, 11.03.2017_
+#### _A reflection on my development as a coder so far, 11.03.2017_
 
 #### By _Margaret Berry_
 
 ## Description
-
 _Fourteen weeks into my coding bootcamp, Epicodus gave me a day to reflect on my strengths and weaknesses as a programmer. It was an open-ended assignment to think about my strengths and weaknesses, and to dive into something I need to work on or learn more about._
 
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0._
 
 ## Setup and Installation Instructions
-
 1. `$ git clone [this repository]`
 2. `$ cd personal_reflection_project`
 3. `$ cd discussion-forum`
-4. _Go to [firebase](https://firebase.google.com/) and login or create a free account._
-5. _Go to the firebase console and create a project called 'discussion-forum'._
-6. _Click 'add firebase to your web app'._
-7. `$ touch src/app/api-keys.ts` _then add the following code:_`export var masterFirebaseConfig = { apiKey: "xxxx", authDomain: "xxxx.firebaseapp.com", databaseURL: "https://xxxx.firebaseio.com", storageBucket: "xxxx.appspot.com", messagingSenderId: "xxxx" };` _but replace the x's with your information._
-9. _Add the following code to your .gitignore file:_ `#Firebase credentials /src/app/api-keys.ts `
-10. _Visit the Firebase console, click 'discussion-forum,' and click the database option from the lefthand side of the menu._
-11. _Click 'Realtime Database,' then 'Rules.' Set the value of .read and .write to 'true' and click 'publish.'_
-12. _'Click 'Data,' then click the three dots in the upper righthand corner. Select 'Import JSON' and navigate to 'sample-posts.json' from this project._
+4. `$ npm install`
+5. `$ npm install --save-dev @types/jasmine`
+6. `$ bower install bootstrap --save`
+7. _Firebase setup:_
+* _Go to [firebase](https://firebase.google.com/) and login or create a free account._
+* _Go to the firebase console and create a project called 'discussion-forum'._
+* _Click 'add firebase to your web app'._
+* `$ touch src/app/api-keys.ts` _then add the following code:_`export var masterFirebaseConfig = { apiKey: "xxxx", authDomain: "xxxx.firebaseapp.com", databaseURL: "https://xxxx.firebaseio.com", storageBucket: "xxxx.appspot.com", messagingSenderId: "xxxx" };` _but replace the x's with your information._
+* _Add the following code to your .gitignore file:_ `#Firebase credentials /src/app/api-keys.ts `
+* _Visit the Firebase console, click 'discussion-forum,' and click the database option from the lefthand side of the menu._
+* _Click 'Realtime Database,' then 'Rules.' Set the value of .read and .write to 'true' and click 'publish.'_
+* _'Click 'Data,' then click the three dots in the upper righthand corner. Select 'Import JSON' and navigate to 'sample-posts.json' from this project._
+
+## Angular Information
+
+#### Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Code scaffolding
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+#### Build
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+#### Running unit tests
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Running end-to-end tests
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+#### Further help
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## My Strengths
 * _Clear documentation: my commits and READMEs are generally clear and easy to understand._
@@ -46,22 +64,15 @@ _One of my strengths is that I like to write tests, and one of my weaknesses is 
 
 ## User Stories
 * _As a user, I want to..._
-* _See several discussion categories on the main page._
-* _Click a category to visit its collection of posts._
-* _Click a post to view its contents._
-* _Click on a post to expand/collapse it, so I can view whatever funny picture, link, or news article other users have posted._
-* _Add new posts to a discussion category._
-* _Update my post as necessary._
-* _Delete my post._
+* _See all posts and several discussion categories on the main page._
 
 ## Future Features
 * _As a user, I want to..._
-* _Upvote posts I particularly enjoy._
-* _Downvote posts I don't like, or find inappropriate._
-* _See when my and others' posts were created._
-* _Add sub-topics to my posts._
-
-## Specifications
+* _Click a category to visit its collection of posts._
+* _Click a post to view its contents._
+* _Add new posts to a discussion category._
+* _Update my post as necessary._
+* _Delete my post._
 
 ## Bugs
 _There are no known bugs at this time._
@@ -72,27 +83,9 @@ _I began working through [this angular testing tutorial](https://angular.io/guid
 _As I went, I took notes on [Angular CLI Setup](https://www.evernote.com/shard/s148/sh/a3f7b207-5749-4fc4-9164-c1e790a94b27/f261f4f83a6e8c9097b502a394a027bc) and [Angular Testing](https://www.evernote.com/shard/s148/sh/c61c49bc-7ac3-4493-9cc4-17c4906ad991/0987cfc7c0271ff071b9f16c98b80567)._
 
 ## Future Study and Preparation
-
-##Angular Information
-
-#### Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-#### Code scaffolding
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-#### Build
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-#### Running unit tests
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-#### Running end-to-end tests
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-#### Further help
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_Read Angular documentation and learn more about what the different components I'm importing are doing._
+_Learn about Protractor integration testing._
+_Read more about time management._
 
 ## Technologies Used
 * _JavaScript_
@@ -100,6 +93,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * _Angular2_
 * _Node_
 * _Bower_
+* _Bootstrap_
 * _Firebase_
 * _Jasmine and Karma_
 

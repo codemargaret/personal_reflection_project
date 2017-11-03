@@ -10,7 +10,7 @@ export class PostService {
     this.posts = database.list('posts');
   }
 
-  getPosts(){
+  getPosts() {
     return this.posts;
   }
 }

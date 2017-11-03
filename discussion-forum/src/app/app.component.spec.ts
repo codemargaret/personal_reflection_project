@@ -1,25 +1,32 @@
 import { TestBed, async, ComponentFixture } from '@angular/core/testing';
-import { By }              from '@angular/platform-browser';
-import { DebugElement }    from '@angular/core';
+import { By } from '@angular/platform-browser';
+import { DebugElement } from '@angular/core';
 import { AppComponent } from './app.component';
+
+import { provideRoutes} from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing'; // important for recognizing router-outlet tags
 
 describe('AppComponent', () => {
   let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
-  let de:      DebugElement;
-  let el:      HTMLElement;
+  let de: DebugElement;
+  let el: HTMLElement;
 
   beforeEach(async(() => {
+    // needs to be placed in async, different from tutorial
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
       ],
+      imports: [ RouterTestingModule ],
+      providers: [ ],
     }).compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(AppComponent);
-    component = fixture.componentInstance; // WelcomeComponent test instance
+    component = fixture.componentInstance; // AppComponent test instance
     fixture.detectChanges();
   });
 
