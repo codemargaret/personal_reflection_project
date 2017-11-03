@@ -10,6 +10,20 @@ _Fourteen weeks into my coding bootcamp, Epicodus gave me a day to reflect on my
 
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0._
 
+## Setup and Installation Instructions
+
+1. `$ git clone [this repository]`
+2. `$ cd personal_reflection_project`
+3. `$ cd discussion-forum`
+4. _Go to [firebase](https://firebase.google.com/) and login or create a free account._
+5. _Go to the firebase console and create a project called 'discussion-forum'._
+6. _Click 'add firebase to your web app'._
+7. `$ touch src/app/api-keys.ts` _then add the following code:_`export var masterFirebaseConfig = { apiKey: "xxxx", authDomain: "xxxx.firebaseapp.com", databaseURL: "https://xxxx.firebaseio.com", storageBucket: "xxxx.appspot.com", messagingSenderId: "xxxx" };` _but replace the x's with your information._
+9. _Add the following code to your .gitignore file:_ `#Firebase credentials /src/app/api-keys.ts `
+10. _Visit the Firebase console, click 'discussion-forum,' and click the database option from the lefthand side of the menu._
+11. _Click 'Realtime Database,' then 'Rules.' Set the value of .read and .write to 'true' and click 'publish.'_
+12. _'Click 'Data,' then click the three dots in the upper righthand corner. Select 'Import JSON' and navigate to 'sample-posts.json' from this project._
+
 ## My Strengths
 * _Clear documentation: my commits and READMEs are generally clear and easy to understand._
 * _Attention to detail: I am careful when writing initial code and am often able to find small syntax errors._
@@ -30,34 +44,6 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 ## Project Goal
 _One of my strengths is that I like to write tests, and one of my weaknesses is being intimidated by new things, so I am going to explore testing in Angular, which is completely new to me. Epicodus teaches students Angular in its JavaScript course, but does not touch on testing in Angular. I'm going to try to write an Angular application from scratch and test it thoroughly. I'm also going to explore integration testing with Protractor, and practice debugging in Angular. If I have extra time, I'll add Sass to my project._
 
-
-
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
 ## User Stories
 * _As a user, I want to..._
 * _See several discussion categories on the main page._
@@ -73,6 +59,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * _Upvote posts I particularly enjoy._
 * _Downvote posts I don't like, or find inappropriate._
 * _See when my and others' posts were created._
+* _Add sub-topics to my posts._
 
 ## Specifications
 
@@ -86,6 +73,35 @@ _As I went, I took notes on [Angular CLI Setup](https://www.evernote.com/shard/s
 
 ## Future Study and Preparation
 
+##Angular Information
+
+#### Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+#### Code scaffolding
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+
+#### Build
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+#### Running unit tests
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+#### Running end-to-end tests
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+#### Further help
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Technologies Used
+* _JavaScript_
+* _TypeScript_
+* _Angular2_
+* _Node_
+* _Bower_
+* _Firebase_
+* _Jasmine and Karma_
 
 ## Support and contact details
 
