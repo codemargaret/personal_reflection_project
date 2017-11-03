@@ -1,0 +1,18 @@
+{ "posts": [{
+    "title": "A Hot Dog is a Sandwich",
+    "author": "Jane Doe",
+    "text": "A hot dog is a sandwich because it is a filling surrounded by two pieces of bread.",
+    "topic": "philosophy"
+  }, {
+    "title": "Careers That Don't Require Pants",
+    "author": "John Doe",
+    "text": "If you are a programmer or a stay-at-home mom, you might not have to wear pants.",
+    "topic": "careers"
+  },
+  {
+    "title": "Couch Size",
+    "author": "Jamie Doe",
+    "text": "It doesn't matter, your roommate, friend, lover, spouse, child, or pet will always be on your side.",
+    "topic": "relationships"
+  }]
+}
