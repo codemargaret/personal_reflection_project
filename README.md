@@ -1,4 +1,4 @@
-# _Personal Reflection Project_
+# _Personal Reflection Project: Discussion Forum_
 
 #### _An reflection on my development as a coder so far, 11.03.2017_
 
@@ -7,6 +7,8 @@
 ## Description
 
 _Fourteen weeks into my coding bootcamp, Epicodus gave me a day to reflect on my strengths and weaknesses as a programmer. It was an open-ended assignment to think about my strengths and weaknesses, and to dive into something I need to work on or learn more about._
+
+_This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0._
 
 ## My Strengths
 * _Clear documentation: my commits and READMEs are generally clear and easy to understand._
@@ -26,23 +28,64 @@ _Fourteen weeks into my coding bootcamp, Epicodus gave me a day to reflect on my
 * _Intimidated by new things: I am sometimes hesitant to jump into using a completely new tool or library._
 
 ## Project Goal
-_One of my strengths is that I like to write tests, and one of my weaknesses is being intimidated by new things, so I am going to explore testing in Angular, which is completely new to me. Epicodus teaches students Angular in its JavaScript course, but does not touch on testing in Angular. I'm going to try to write an Angular application from scratch and test it thoroughly. If I have extra time, I will explore debugging tools in Angular, and add Sass to my project. I'm going to start [here](https://angular.io/guide/testing)._
+_One of my strengths is that I like to write tests, and one of my weaknesses is being intimidated by new things, so I am going to explore testing in Angular, which is completely new to me. Epicodus teaches students Angular in its JavaScript course, but does not touch on testing in Angular. I'm going to try to write an Angular application from scratch and test it thoroughly. I'm also going to explore integration testing with Protractor, and practice debugging in Angular. If I have extra time, I'll add Sass to my project._
+
+
+
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## User Stories
-
 * _As a user, I want to..._
-
-## Specs
-
-## Setup/Installation Requirements
-
-## Known Bugs
-
-_There are no known bugs at this time._
+* _See several discussion categories on the main page._
+* _Click a category to visit its collection of posts._
+* _Click a post to view its contents._
+* _Click on a post to expand/collapse it, so I can view whatever funny picture, link, or news article other users have posted._
+* _Add new posts to a discussion category._
+* _Update my post as necessary._
+* _Delete my post._
 
 ## Future Features
+* _As a user, I want to..._
+* _Upvote posts I particularly enjoy._
+* _Downvote posts I don't like, or find inappropriate._
+* _See when my and others' posts were created._
 
-## Thanks to...
+## Specifications
+
+## Bugs
+_There are no known bugs at this time._
+
+## How I Spent Today
+_I started a project from [this Epicodus lesson](https://www.learnhowtoprogram.com/javascript/angular-extended/online-store-discussion-forum-craigslist) I hadn't tried yet, a discussion forum app._
+_I began working through [this angular testing tutorial](https://angular.io/guide/testing)._
+_As I went, I took notes on [Angular CLI Setup](https://www.evernote.com/shard/s148/sh/a3f7b207-5749-4fc4-9164-c1e790a94b27/f261f4f83a6e8c9097b502a394a027bc) and [Angular Testing](https://www.evernote.com/shard/s148/sh/c61c49bc-7ac3-4493-9cc4-17c4906ad991/0987cfc7c0271ff071b9f16c98b80567)._
+
+## Future Study and Preparation
+
 
 ## Support and contact details
 
