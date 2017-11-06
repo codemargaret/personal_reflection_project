@@ -15,6 +15,7 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 3. `$ cd discussion-forum`
 4. `$ npm install`
 5. `$ npm install --save-dev @types/jasmine`
+  * `$ bower install -g` _to install bower if needed_
 6. `$ bower install bootstrap --save`
 7. _Firebase setup:_
 * _Go to [firebase](https://firebase.google.com/) and login or create a free account._
