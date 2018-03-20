@@ -100,9 +100,7 @@ _Read more about time management._
 
 ## Support and contact details
 
-_If you have any updates, questions, or suggestions please contact [Margaret] or make a contribution._
-
-[Margaret]: mailto:margaretshelaghmcgovern@gmail.com
+_If you have any updates, questions, or suggestions please contact [Margaret](codeberry1@gmail.com) or make a contribution._
 
 ### License
 
